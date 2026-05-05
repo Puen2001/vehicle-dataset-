@@ -32,7 +32,7 @@ class_names:
 
 # Prompts passed to Grounding DINO (dot-separated keywords per class)
 class_prompts:
-  0: "person . pedestrian"
+  0: "pedestrian . person walking . person standing on street"
   1: "car . sedan . vehicle"
   2: "motorcycle . motorbike . bicycle"
   3: "truck . lorry . heavy vehicle"
