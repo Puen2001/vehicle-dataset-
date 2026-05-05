@@ -1,0 +1,37 @@
+# Images — never pushed
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+images/
+
+# Dataset output — rebuilt locally by scripts
+dataset/
+raw/
+new_data/
+
+# Models
+*.pt
+*.pth
+*.weights
+*.onnx
+*.tflite
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+.env
+
+# macOS
+.DS_Store
+
+# Label Studio
+label-studio/
+
+# Logs
+*.log
+*.tmp
